@@ -14,7 +14,7 @@ publishing {
 
             afterEvaluate {
                 // from components.release
-                println "after evaluate"
+                println "third after evaluate"
             }
         }
     }
