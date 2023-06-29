@@ -10,9 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "A sample library"
 include ':core'
 include ':distribution'
-//include ':app'
+include ':third'
