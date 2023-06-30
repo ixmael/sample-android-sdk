@@ -5,6 +5,7 @@ plugins {
 configurations.maybeCreate("default")
 artifacts.add("default", file('libs/pro-2.3.1.aar'))
 
+/*
 publishing {
     publications {
         release(MavenPublication) {
@@ -19,3 +20,4 @@ publishing {
         }
     }
 }
+*/
