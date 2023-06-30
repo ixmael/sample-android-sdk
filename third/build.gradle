@@ -12,7 +12,7 @@ publishing {
             artifactId = 'third'
             version = '0.0.1'
 
-            artifact("$buildDir/third/libs/pro-2.3.1.aar")
+            artifact("libs/pro-2.3.1.aar")
 
             afterEvaluate {
                 // from components.release
