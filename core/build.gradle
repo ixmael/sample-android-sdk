@@ -40,19 +40,16 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-/*
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'mx.irm.core'
+            groupId = 'mx.irm'
             artifactId = 'core'
             version = '0.0.1'
 
             afterEvaluate {
-                // from components.release
-                println "core after evaluate"
+                from components.release
             }
         }
     }
 }
-*/
