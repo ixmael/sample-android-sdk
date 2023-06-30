@@ -5,19 +5,16 @@ plugins {
 configurations.maybeCreate("default")
 artifacts.add("default", file('libs/pro-2.3.1.aar'))
 
-/*
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'mx.irm.third'
+            groupId = 'mx.irm'
             artifactId = 'third'
-            version = '3.2.1'
+            version = '0.0.1'
 
             afterEvaluate {
                 // from components.release
-                println "third after evaluate"
             }
         }
     }
 }
-*/
